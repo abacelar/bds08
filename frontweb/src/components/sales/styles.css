@@ -1,0 +1,34 @@
+.sales-container {
+  height: 517px;
+  padding: 40px 50px 40px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sales-text-container {
+  padding-left: 15px;
+}
+
+.sales-text-container h1 {
+  font-size: 36px;
+}
+
+.sales-container span {
+  color: var(--grey-color);
+}
+
+@media (min-width: 576px) {
+  .sales-pie-container {
+    align-self: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .sales-container {
+    padding: 40px 50px 0 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

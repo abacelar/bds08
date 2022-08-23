@@ -1,0 +1,21 @@
+.app-container {
+  padding: 0 10px;
+}
+
+@media (min-width: 576px) {
+  .app-container {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .app-container {
+    padding: 40px 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .app-container {
+    padding: 40px 120px;
+  }
+}
